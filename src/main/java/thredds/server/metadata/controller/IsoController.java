@@ -58,7 +58,7 @@ import ucar.nc2.dataset.NetcdfDataset;
  * <p/>
  */
 @Controller
-@RequestMapping("/iso")
+@RequestMapping("/iso/**")
 public class IsoController extends AbstractMetadataController {
 	private static org.slf4j.Logger _log = org.slf4j.LoggerFactory
 	    .getLogger(IsoController.class);
